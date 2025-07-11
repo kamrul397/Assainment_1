@@ -66,6 +66,49 @@ body {
     margin: 220px 48px 0 250px;
    
 }
+/* productive-user */
+.productive-user{
+    width: 1140px;
+    height: 306px;
+    background-color: #b8e1f5;
+    margin: 12px 160px 137px 141px;
+    border-radius: 24px;
+}
+/* data section */
+.three_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.data-item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-data{
+    margin: 50px 140px;
+}
+.user-title{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.data-number{
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.data-desc{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -3px;
+}
 /* shared style */
 .btn-primary{
     background-color: #4E47FF;
