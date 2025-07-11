@@ -1,7 +1,7 @@
 
-
 body {
     font-family: "Raleway", sans-serif;
+    /* background-color: rgba(255, 255, 255, 0.5); */
 }
 /* header */
 .header {
@@ -108,6 +108,82 @@ body {
     font-family: 'Inter', sans-serif;
     color: rgba(0, 0, 0, 0.5);
     margin-top: -3px;
+}
+/* form starts */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* space between items */
+    width: 500px;
+    height: 500px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+   
+}
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+    
+}
+.touch_title{
+    font-size: 100px;
+    font-weight: bold;
+}
+.touch_btn{
+    width: 497px;
+    height: 62px;
+    margin-top: 0;
+}
+#Name, #Email{
+    height: 50px;
+    border-radius: 5px;
+    border: #D6DDED solid 1px;
+}
+#Message{
+    height: 150px;
+    border-radius: 5px;
+    border: #D6DDED solid 1px;
+}
+
+/* footer */
+.links ul {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 32px; /* space between links */
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 20px 0;
+}
+
+
+.links li a{
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.footer-section{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    margin: 200px 455px;
+    
 }
 /* shared style */
 .btn-primary{
